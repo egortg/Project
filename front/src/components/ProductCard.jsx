@@ -11,7 +11,6 @@ const ProductCard = ({ product }) => {
 			toast.error("Пожалуйста, войдите в систему, чтобы добавить товар в корзину", { id: "login" });
 			return;
 		} else {
-			// add to cart
 			addToCart(product);
 		}
 	};
